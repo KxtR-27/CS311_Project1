@@ -1,0 +1,42 @@
+:root {
+    --accent-color: #cba6f7; /* mauve */
+    --base-color: #1e1e2e;
+    --overlay-color: #6c7086;
+    --surface-color: #313244;
+    --text-color: #cdd6f4;
+}
+
+html {
+    background-color: var(--base-color);
+    color: var(--text-color);
+    font-family: sans-serif;
+}
+
+header, section {
+    margin: 10px;
+    padding: 20px;
+    border: var(--overlay-color) solid 2px;
+    border-radius: 2em;
+}
+
+.circular {
+    border-radius: 100%;
+}
+
+.flexbox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    border: var(--surface-color) dashed 2px;
+    padding: 10px;
+}
+
+.icon {
+    width: 80px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.icon:hover {
+    background-color: var(--surface-color);
+}
