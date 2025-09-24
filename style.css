@@ -83,6 +83,12 @@ nav button {
     padding: 5px;
 }
 
+#apps-box .icon {
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+}
+
 .icon:hover {
     background-color: var(--surface-color);
 }
