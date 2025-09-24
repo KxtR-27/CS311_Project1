@@ -92,3 +92,8 @@ nav button {
 .icon:hover {
     background-color: var(--surface-color);
 }
+
+.tip {
+    color: var(--overlay-color);
+    font-style: italic;
+}
