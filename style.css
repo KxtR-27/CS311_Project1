@@ -10,7 +10,7 @@
 html {
     background-color: var(--base-color);
     color: var(--text-color);
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
 }
 
@@ -47,6 +47,7 @@ header p {
     line-height: 1.5em;
 }
 
+
 nav button {
     cursor: pointer;
     background-color: var(--base-color);
@@ -56,6 +57,20 @@ nav button {
     word-wrap: none;
     width: fit-content;
 }
+
+
+a {
+    color: var(--accent-color);
+}
+
+a:hover {
+    filter: brightness(90%);
+}
+
+a:focus {
+    filter: brightness(80%);
+}
+
 
 .box {
     border: #6c7086 solid 2px;
@@ -87,6 +102,7 @@ nav button {
     width: 70px;
     height: 70px;
     padding: 10px;
+    border-radius: 20px;
 }
 
 .icon:hover {
@@ -96,4 +112,20 @@ nav button {
 .tip {
     color: var(--overlay-color);
     font-style: italic;
+}
+
+.description {
+    color: var(--text-secondary-color);
+    font-style: italic;
+}
+
+.showcase img {
+    width: auto;
+    height: 200px;
+    min-height: 20%;
+    justify-content: space-evenly;
+}
+
+#lucrativelogo {
+    height: 150px;
 }
